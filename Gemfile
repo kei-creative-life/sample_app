@@ -21,6 +21,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+# 画像投稿用gem
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+# 画像加工用（サイズ調整など）gem
+gem "refile-mini_magick"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
